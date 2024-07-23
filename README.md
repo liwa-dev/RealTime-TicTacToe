@@ -1,6 +1,9 @@
 # RealTime-TicTacToe
 
-I created a real-time multiplayer Tic-Tac-Toe game built with Node.js and Socket.IO.
+I created a real-time multiplayer Tic-Tac-Toe game built with Node.js and Socket.IO
+
+![Project Logo](untitled.png)
+
 
 ## Table of Contents
 
