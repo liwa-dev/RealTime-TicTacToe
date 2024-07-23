@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Tic-Tac-Toe</h1>
+        <div id="room-controls">
+            <button id="create-room">Create Room</button>
+            <input type="text" id="room-id" placeholder="Room ID">
+            <button id="join-room">Join Room</button>
+        </div>
+        <div id="timer">Time: 00:00</div>
+        <div id="game-board" class="hidden">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div id="status"></div>
+        <div id="match-duration"></div>
+        <button id="reset-game" class="hidden">Reset Game</button>
+    </div>
+    <div id="game-start-overlay" class="overlay hidden">
+        <div class="overlay-content">
+            <p>Game Start</p>
+        </div>
+    </div>
+    <div id="game-end-overlay" class="overlay hidden">
+        <div class="overlay-end">
+            <p>The player has left the game, so the match is over</p>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe-socketio",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe game using Socket.IO",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "socketio",
+    "game"
+  ],
+  "author": "liwahadri",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
