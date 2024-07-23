@@ -2,7 +2,7 @@
 
 I created a real-time multiplayer Tic-Tac-Toe game built with Node.js and Socket.IO
 
-![Project Logo](public/client/untitled.png)
+![Project Logo](public/client/Untitled.png)
 
 
 ## Table of Contents
